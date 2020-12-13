@@ -14,7 +14,7 @@ using SourceGeneratorLib.SyntaxReceivers;
 namespace SourceGeneratorLib.Generators
 {
     [Generator]
-    class BuilderGenerator : ISourceGenerator
+    class DataBuilderGenerator : ISourceGenerator
     {
 
         private const string NameSpace = "NetConf2020";

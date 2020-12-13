@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace SourceGeneratorJourney.UseCases
 {
-    public class TestCsvGenerator
+    public static class TestCsvGenerator
     {
         public static void Run()
         {
