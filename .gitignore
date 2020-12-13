@@ -1,0 +1,10 @@
+
+.idea/
+.vs/
+SourceGeneratorJourney.sln.DotSettings.user
+bin/
+obj/
+
+SourceGeneratorJourney/SourceGeneratorJourney.csproj.user
+
+*.user
