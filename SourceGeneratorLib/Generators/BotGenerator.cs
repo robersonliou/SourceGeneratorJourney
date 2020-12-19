@@ -10,7 +10,7 @@ using SourceGeneratorLib.Extensions;
 namespace SourceGeneratorLib.Generators
 {
     [Generator]
-    public class BotGenerator 
+    public class BotGenerator
     {
         private const string NameSpace = "NetConf2020";
         private const string AttributeName = "BotMessage";

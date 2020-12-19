@@ -4,7 +4,8 @@ namespace SourceGeneratorJourney.UseCases
 {
     public static class TestBotGenerator
     {
-       // [BotMessage("Hello, .Net Conf 2020!")]
+        // Manually add SourceGenerator interface.
+        // [BotMessage("Hello, .Net Conf 2020!")]
         public static void Run()
         {
             // var bot = new DotNetBot();
