@@ -54,9 +54,8 @@ namespace SourceGeneratorLib.Generators
             //// Usings
             builder.Append(@"
 #nullable enable
-namespace CSV {
-    using System.Collections.Generic;
-
+using System.Collections.Generic;
+namespace NetConf2020 {
 ");
             //// Class Definition
             builder
