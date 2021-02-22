@@ -11,7 +11,7 @@ namespace SourceGeneratorLib.Generators
     class DiagnosticGenerator : ISourceGenerator
     {
 
-        private const string NameSpace = "NetConf2020";
+        private const string NameSpace = "twMVC";
         private const string AttributeName = "TestDiagnostic";
         
         public void Initialize(GeneratorInitializationContext context)

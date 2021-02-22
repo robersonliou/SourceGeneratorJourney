@@ -9,7 +9,11 @@ namespace SourceGeneratorJourney.UseCases
         public static void Run()
         {
             var personEntityBuilder = new PersonEntityBuilder();
-            var personEntity = personEntityBuilder.WithCountry("asd").Build();
+            // var person = personEntityBuilder
+            //     .WithId(1)
+            //     .WithGender("Male")
+            //     .WithName("John")
+            //     .WithCountry("Taiwan").Build();
         }
     }
     

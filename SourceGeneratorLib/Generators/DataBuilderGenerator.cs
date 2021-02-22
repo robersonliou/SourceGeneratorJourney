@@ -17,7 +17,7 @@ namespace SourceGeneratorLib.Generators
     class DataBuilderGenerator : ISourceGenerator
     {
 
-        private const string NameSpace = "NetConf2020";
+        private const string NameSpace = "twMVC";
         private const string AttributeName = "DataBuilder";
         
         public void Initialize(GeneratorInitializationContext context)

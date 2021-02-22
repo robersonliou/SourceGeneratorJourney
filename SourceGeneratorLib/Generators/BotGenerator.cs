@@ -12,7 +12,7 @@ namespace SourceGeneratorLib.Generators
     [Generator]
     public class BotGenerator
     {
-        private const string NameSpace = "NetConf2020";
+        private const string NameSpace = "twMVC";
         private const string AttributeName = "BotMessage";
 
         public void Initialize(GeneratorInitializationContext context)

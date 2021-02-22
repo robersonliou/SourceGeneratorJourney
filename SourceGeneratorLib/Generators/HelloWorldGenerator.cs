@@ -18,7 +18,7 @@ namespace SourceGeneratorLib.Generators
 {SharedMeta.GeneratedByDataBuilderGeneratorPreamble}
 using System;
 
-namespace NetConf2020
+namespace twMVC
 {{
     public class HelloWorld
     {{
