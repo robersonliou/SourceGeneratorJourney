@@ -8,12 +8,12 @@ namespace SourceGeneratorJourney.UseCases
     {
         public static void Run()
         {
-            var personEntityBuilder = new PersonEntityBuilder();
-            // var person = personEntityBuilder
-            //     .WithId(1)
-            //     .WithGender("Male")
-            //     .WithName("John")
-            //     .WithCountry("Taiwan").Build();
+            var dateBuilder = new PersonEntityBuilder();
+            var person = dateBuilder
+                .WithId(1)
+                .WithName("John")
+                .WithGender("Male")
+                .WithCountry("Taiwan").Build();
         }
     }
     

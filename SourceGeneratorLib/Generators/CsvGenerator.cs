@@ -55,7 +55,7 @@ namespace SourceGeneratorLib.Generators
             builder.Append(@"
 #nullable enable
 using System.Collections.Generic;
-namespace NetConf2020 {
+namespace twMVC {
 ");
             //// Class Definition
             builder

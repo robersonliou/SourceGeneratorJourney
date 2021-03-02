@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using twMVC;
 
 namespace SourceGeneratorJourney.UseCases
 {
@@ -8,9 +9,9 @@ namespace SourceGeneratorJourney.UseCases
         public static void Run()
         {
             Print("## CARS");
-            NetConf2020.Cars.All.ToList().ForEach(c => Print($"{c.Brand}\t{c.Model}\t{c.Year}\t{c.Cc}"));
+            Cars.All.ToList().ForEach(c => Print($"{c.Brand}\t{c.Model}\t{c.Year}\t{c.Cc}"));
             Print("\n## PEOPLE");
-            NetConf2020.People.All.ToList().ForEach(p => Print($"{p.Name}\t{p.Address}\t{p._11Age}")); 
+            People.All.ToList().ForEach(p => Print($"{p.Name}\t{p.Address}\t{p._11Age}")); 
         }
         public static void Print(string message) => Console.WriteLine(message);
     }
