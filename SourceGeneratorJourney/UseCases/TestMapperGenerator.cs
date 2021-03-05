@@ -1,4 +1,4 @@
-﻿using MapperGenerator;
+﻿using twMVC;
 using SourceGeneratorJourney.Entities;
 
 namespace SourceGeneratorJourney.UseCases

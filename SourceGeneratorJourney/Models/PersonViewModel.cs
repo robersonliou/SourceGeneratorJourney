@@ -1,6 +1,5 @@
 ﻿using SourceGeneratorJourney.Entities;
-using MapperGenerator;
-using NetConf2020;
+using twMVC;
 
 namespace SourceGeneratorJourney.Models
 {
@@ -11,6 +10,5 @@ namespace SourceGeneratorJourney.Models
         public string Name { get; set; }
         public string Country { get; set; }
         public string Gender { get; set; }
-
     }
 }

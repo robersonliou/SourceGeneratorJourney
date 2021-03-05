@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Immutable;
-using System.Diagnostics;
-using System.Linq;
+﻿using System.Linq;
 using System.Text;
-using System.Text.RegularExpressions;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.CodeAnalysis.Text;
 using SourceGeneratorLib.Extensions;
-using SourceGeneratorLib.SyntaxReceivers;
 
 namespace SourceGeneratorLib.Generators
 {

@@ -1,6 +1,4 @@
-﻿
-
-using twMVC;
+﻿using twMVC;
 
 namespace SourceGeneratorJourney.Entities
 {
