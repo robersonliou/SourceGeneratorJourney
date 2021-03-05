@@ -5,7 +5,7 @@ namespace SourceGeneratorJourney.UseCases
 {
     public static class TestReportDiagnostics
     {
-        [TestDiagnostic]
+        // [TestDiagnostic]
         public static void Run()
         {
         }

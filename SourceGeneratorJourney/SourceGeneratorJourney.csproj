@@ -11,6 +11,7 @@
   <ItemGroup>
     <AdditionalFiles Include="Files/People.csv" CsvLoadType="Startup" />
     <AdditionalFiles Include="Files/Cars.csv" CsvLoadType="OnDemand" CacheObjects="true" />
+<!--    <AdditionalFiles Include="Root.txt" RootPath="$(MSBuildProjectDirectory)" Message="HiHi" />-->
   </ItemGroup>
   
   <!--enable compiler to consume metadata-->
